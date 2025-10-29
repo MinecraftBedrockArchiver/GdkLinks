@@ -26,6 +26,7 @@ jobs:
       - env:
           TOKEN_CACHE: ${{ secrets.TOKEN_CACHE }}
         run: echo $TOKEN_CACHE > token_cache.bin
+      - run: pip install -r requirements.txt
       - run: python -B main.py
       - env:
           GH_TOKEN: ${{ secrets.SECRETS_TOKEN }}
