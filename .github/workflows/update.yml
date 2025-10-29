@@ -27,4 +27,6 @@ jobs:
           TOKEN_CACHE: ${{ secrets.TOKEN_CACHE }}
         run: echo $TOKEN_CACHE > token_cache.bin
       - run: python -B main.py
-      - run: gh secret set TOKEN_CACHE < token_cache.bin
+      - env:
+          GH_TOKEN: ${{ secrets.SECRETS_TOKEN }}
+        run: gh secret set TOKEN_CACHE < token_cache.bin

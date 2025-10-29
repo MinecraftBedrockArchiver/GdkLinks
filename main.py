@@ -30,7 +30,7 @@ def get_xbox_token() -> str:
 	accounts = app.get_accounts()
 	if not accounts:
 		if (debug):
-			result = app.acquire_token_interactive(scopes=["XboxLive.signin"])
+			result = app.acquire_token_interactive(scopes=["XboxLive.signin"], prompt="select_account")
 		else:
 			print("No accounts found. Exiting.")
 			exit(1)
