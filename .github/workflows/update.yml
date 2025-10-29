@@ -1,0 +1,30 @@
+name: Update
+# Based on https://github.com/ddf8196/mc-w10-versiondb-auto-update/blob/5fe86c15d6f7954674b072fc9ff0f29e7d9c1241/.github/workflows/update.yml
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Check for updates every half hour between 15:00 UTC and 19:00 UTC on Tuesday through Thursday
+    - cron: '0,30 15-19 * * 2-4'
+    # Check for updates every hour between 17:00 UTC and 19:00 UTC on Monday and Friday
+    - cron: '0 17-19 * * 1,5'
+    # Check for updates at 19:00 UTC once every Saturday and Sunday
+    - cron: '0 19 * * 0,6'
+
+jobs:
+  check-for-update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - env:
+          TOKEN_CACHE: ${{ secrets.TOKEN_CACHE }}
+        run: echo $TOKEN_CACHE > token_cache.bin
+      - run: python -B main.py
+      - run: gh secret set TOKEN_CACHE < token_cache.bin
