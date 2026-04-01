@@ -55,6 +55,10 @@
         "1.26.11.1": [
             "http://assets1.xboxlive.com/14/1ce08876-7829-4fe5-8f94-6e34636da6b8/7792d9ce-355a-493c-afbd-768f4a77c3b0/1.26.1101.0.fcbb70f6-904b-4da5-9236-30f4863c9bff/MICROSOFT.MINECRAFTUWP_1.26.1101.0_x64__8wekyb3d8bbwe.msixvc",
             "http://assets2.xboxlive.com/14/1ce08876-7829-4fe5-8f94-6e34636da6b8/7792d9ce-355a-493c-afbd-768f4a77c3b0/1.26.1101.0.fcbb70f6-904b-4da5-9236-30f4863c9bff/MICROSOFT.MINECRAFTUWP_1.26.1101.0_x64__8wekyb3d8bbwe.msixvc"
+        ],
+        "1.26.12.2": [
+            "http://assets1.xboxlive.com/3/c6f987ba-e97d-4759-b001-86a1e905fde1/7792d9ce-355a-493c-afbd-768f4a77c3b0/1.26.1202.0.5d6372fb-8149-4d5c-96b8-1ad1a0f039f5/MICROSOFT.MINECRAFTUWP_1.26.1202.0_x64__8wekyb3d8bbwe.msixvc",
+            "http://assets2.xboxlive.com/3/c6f987ba-e97d-4759-b001-86a1e905fde1/7792d9ce-355a-493c-afbd-768f4a77c3b0/1.26.1202.0.5d6372fb-8149-4d5c-96b8-1ad1a0f039f5/MICROSOFT.MINECRAFTUWP_1.26.1202.0_x64__8wekyb3d8bbwe.msixvc"
         ]
     },
     "preview": {
