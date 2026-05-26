@@ -213,6 +213,10 @@
         "1.26.30.29": [
             "http://assets1.xboxlive.com/10/ef077752-be17-46ad-809f-fab7174a49a4/98bd2335-9b01-4e4c-bd05-ccc01614078b/1.26.3029.0.38f295a8-df0a-4692-9d48-53af71dfccc0/Microsoft.MinecraftWindowsBeta_1.26.3029.0_x64__8wekyb3d8bbwe.msixvc",
             "http://assets2.xboxlive.com/10/ef077752-be17-46ad-809f-fab7174a49a4/98bd2335-9b01-4e4c-bd05-ccc01614078b/1.26.3029.0.38f295a8-df0a-4692-9d48-53af71dfccc0/Microsoft.MinecraftWindowsBeta_1.26.3029.0_x64__8wekyb3d8bbwe.msixvc"
+        ],
+        "1.26.30.32": [
+            "http://assets1.xboxlive.com/8/21d722cf-ec80-4f01-b806-51e7f620fcec/98bd2335-9b01-4e4c-bd05-ccc01614078b/1.26.3032.0.c6f09ba1-0569-4167-8349-27e9155949ad/Microsoft.MinecraftWindowsBeta_1.26.3032.0_x64__8wekyb3d8bbwe.msixvc",
+            "http://assets2.xboxlive.com/8/21d722cf-ec80-4f01-b806-51e7f620fcec/98bd2335-9b01-4e4c-bd05-ccc01614078b/1.26.3032.0.c6f09ba1-0569-4167-8349-27e9155949ad/Microsoft.MinecraftWindowsBeta_1.26.3032.0_x64__8wekyb3d8bbwe.msixvc"
         ]
     }
 }
